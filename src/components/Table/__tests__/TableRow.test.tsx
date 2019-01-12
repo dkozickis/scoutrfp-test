@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { TableRow } from './TableRow';
+import { TableRow } from '../TableRow';
 
 it('Renders TableRow properly', () => {
   const testComponent = mount(

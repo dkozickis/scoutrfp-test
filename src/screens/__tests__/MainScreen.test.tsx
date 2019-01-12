@@ -1,13 +1,13 @@
 import { mount } from 'enzyme';
-import { MainScreen } from './MainScreen';
+import { MainScreen } from '../MainScreen';
 import React from 'react';
-import { LoadButton } from '../components/LoadButton/LoadButton';
+import { LoadButton } from '../../components/LoadButton/LoadButton';
 import { MockedProvider } from 'react-apollo/test-utils';
-import { LoadIndicator } from '../components/LoadIndicator/LoadIndicator';
-import { LoadButtonConnected } from '../components/LoadButton/LoadButtonConnected';
-import { Table } from '../components/Table/Table';
-import { StoreRate } from '../graphql/store';
-import { ErrorModalConnected } from '../components/ErrorModal/ErrorModalConnected';
+import { LoadIndicator } from '../../components/LoadIndicator/LoadIndicator';
+import { LoadButtonConnected } from '../../components/LoadButton/LoadButtonConnected';
+import { Table } from '../../components/Table/Table';
+import { StoreRate } from '../../graphql/store';
+import { ErrorModalConnected } from '../../components/ErrorModal/ErrorModalConnected';
 
 describe('Main screen shows', () => {
   it('LoadButton', () => {

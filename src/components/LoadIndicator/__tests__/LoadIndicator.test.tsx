@@ -1,5 +1,5 @@
 import { mount } from 'enzyme';
-import { LoadIndicator } from './LoadIndicator';
+import { LoadIndicator } from '../LoadIndicator';
 import React from 'react';
 
 /**

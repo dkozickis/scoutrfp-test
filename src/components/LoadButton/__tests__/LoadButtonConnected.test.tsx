@@ -1,8 +1,8 @@
 import { MockedProvider } from 'react-apollo/test-utils';
 import { mount } from 'enzyme';
-import { LoadButtonConnected } from './LoadButtonConnected';
-import { LoadButton } from './LoadButton';
-import * as React from 'react';
+import { LoadButtonConnected } from '../LoadButtonConnected';
+import { LoadButton } from '../LoadButton';
+import React from 'react';
 
 it('LoadButtonConnected passes correct props', async () => {
   const component = mount(

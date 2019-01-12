@@ -1,6 +1,6 @@
-import { processRates } from './processRates';
-import { CurrencyDataResponseInterface } from './getData';
-import { StoreRate } from '../graphql/store';
+import { processRates } from '../processRates';
+import { CurrencyDataResponseInterface } from '../getData';
+import { StoreRate } from '../../graphql/store';
 
 const ratesFromApi: CurrencyDataResponseInterface['rates'] = {
   USD: 10,

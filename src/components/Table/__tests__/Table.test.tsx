@@ -1,7 +1,7 @@
 import React from 'react';
-import { Table } from './Table';
+import { Table } from '../Table';
 import { mount } from 'enzyme';
-import { TableRow } from './TableRow';
+import { TableRow } from '../TableRow';
 
 it('Table renders correctly', () => {
   const renderData = [

@@ -1,9 +1,9 @@
 import { mount } from 'enzyme';
 import { MockedProvider, MockedResponse } from 'react-apollo/test-utils';
-import * as React from 'react';
-import { MainScreenConnected } from './MainScreenConnected';
-import { mainScreenData } from '../graphql/query/mainScreenData';
-import { MainScreen } from './MainScreen';
+import React from 'react';
+import { MainScreenConnected } from '../MainScreenConnected';
+import { mainScreenData } from '../../graphql/query/mainScreenData';
+import { MainScreen } from '../MainScreen';
 
 it('MainScreenConnected passes correct props', async () => {
   const mocks: ReadonlyArray<MockedResponse> = [

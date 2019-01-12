@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { LoadButton } from './LoadButton';
+import { LoadButton } from '../LoadButton';
 import sinon from 'sinon';
 
 it('Load button calls click event', () => {

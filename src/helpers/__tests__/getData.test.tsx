@@ -1,4 +1,4 @@
-import { getData } from './getData';
+import { getData } from '../getData';
 
 const testUrl = 'https://api.exchangeratesapi.io/latest';
 

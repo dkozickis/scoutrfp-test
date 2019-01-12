@@ -1,5 +1,5 @@
 import { mount } from 'enzyme';
-import { ErrorModal } from './ErrorModal';
+import { ErrorModal } from '../ErrorModal';
 import React from 'react';
 import ReactModal from 'react-modal';
 import sinon from 'sinon';
