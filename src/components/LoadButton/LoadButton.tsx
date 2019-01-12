@@ -12,7 +12,7 @@ export class LoadButton extends PureComponent<LoadButtonProps> {
   render() {
     const { onClick } = this.props;
     return (
-      <button onClick={onClick} type="button" {...this.props} className="btn btn-primary">
+      <button {...this.props} onClick={onClick} type="button" className="btn btn-primary">
         Load data
       </button>
     );

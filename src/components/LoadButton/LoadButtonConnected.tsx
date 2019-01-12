@@ -16,7 +16,7 @@ export const LoadButtonConnected = graphql<{}, {}, UpdateDataVariables, LoadButt
 
         getData()
           /**
-           * If `getData` was successful update `data` with new data
+           * If `getData` was successful - update `data` with new data
            */
           .then(({ rates }: CurrencyDataResponseInterface) => {
             mutate!({
@@ -26,7 +26,7 @@ export const LoadButtonConnected = graphql<{}, {}, UpdateDataVariables, LoadButt
             });
           })
           /**
-           * If `getData` WAS NOT successful, set `hasError` to true
+           * If `getData` WAS NOT successful - set `hasError` to true
            */
           .catch(() => {
             mutate!({ variables: { newData: { hasError: true } } });
